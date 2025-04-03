@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: #1ca4ca;
+  padding: 10px 20px 0px;
+  border-right: 1px solid lightgrey;
+}
+.menu .Logo-menu {
+  width: 150px;
+  height: auto;
+}
+.header {
+  background-color: rgb(5, 108, 108);
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.Banner-principal {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: white;
+  min-height: 150px;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  align-items: flex-start; /* Alinha os itens pelo topo */
+  justify-content: space-between; /* Mantém a distribuição uniforme */
+  padding: 20px;
+  flex-wrap: nowrap; /* Garante que os itens não quebrem a linha */
+  gap: 50px; /* Dá um bom espaçamento entre os itens */
+}
+
+.footer section {
+  flex: 1; /* Faz com que os elementos ocupem o mesmo espaço */
+  min-width: 250px; /* Evita que fiquem muito pequenos */
+  text-align: left; /* Mantém o alinhamento dos textos */
+}
+
+.footer .Logo-footer {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Se precisar que a logo não ocupe tanto espaço */
+.footer section:first-child {
+  flex: 0.5; /* Reduz o espaço da logo em relação aos outros */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer section {
+    text-align: center;
+  }
+}
+
+/* Tabela */
+table {
+  border: solid 1px gray;
+}
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Icones Menu*/
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+li a i,
+li a svg {
+  margin-right: 8px;
+}
