@@ -128,23 +128,22 @@ li a svg {
 }
 
 .texto-inicial {
-  max-width: 700px; /* Define uma largura máxima */
-  margin: 0 auto; /* Centraliza o conteúdo na página */
-  text-align: justify; /* Justifica o texto para melhor legibilidade */
-  padding: 50px 0px 150px 0px; /* Adiciona um espaçamento interno */
-  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 50px 0px 150px 0px;
+  line-height: 1.6;
 }
 .titulo-inicial {
-  max-width: 700px; /* Define uma largura máxima */
-  margin: 0 auto; /* Centraliza o conteúdo na página */
-  text-align: justify; /* Justifica o texto para melhor legibilidade */
-  padding: 50px 0px 0px 0px; /* Adiciona um espaçamento interno */
-  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 50px 0px 0px 0px;
+  line-height: 1.6;
 }
 .texto-secundario {
-  max-width: 700px; /* Define uma largura máxima */
-  margin: 0 auto; /* Centraliza o conteúdo na página */
-  text-align: justify; /* Justifica o texto para melhor legibilidade */
-  /* padding: 50px 0px 150px 0px; Adiciona um espaçamento interno */
-  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.6;
 }
