@@ -1,0 +1,89 @@
+/* Estiliza o container principal */
+.maps-forms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Define a largura do mapa */
+.maps-forms section:first-child {
+  flex: 1;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+/* Ajusta o iframe do mapa */
+.maps-forms iframe {
+  width: 90%;
+  height: 400px;
+  border: 0;
+}
+
+/* Define a largura do formulário */
+.maps-forms section:last-child {
+  flex: 1;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+/* Estiliza o formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  background: #ececec;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(165, 165, 165, 0.5);
+  padding: 30px;
+}
+
+/* Estiliza os campos de entrada */
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Botão de envio */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+/* Efeito de hover no botão */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividade: tela menor que 800px */
+@media (max-width: 800px) {
+  .maps-forms {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .maps-forms section {
+    max-width: 100%;
+  }
+}
+
+.maps-forms section {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
