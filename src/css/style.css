@@ -123,3 +123,25 @@ li a i,
 li a svg {
   margin-right: 8px;
 }
+
+.texto-inicial {
+  max-width: 700px; /* Define uma largura máxima */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+  text-align: justify; /* Justifica o texto para melhor legibilidade */
+  padding: 50px 0px 150px 0px; /* Adiciona um espaçamento interno */
+  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+}
+.titulo-inicial {
+  max-width: 700px; /* Define uma largura máxima */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+  text-align: justify; /* Justifica o texto para melhor legibilidade */
+  padding: 50px 0px 0px 0px; /* Adiciona um espaçamento interno */
+  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+}
+.texto-secundario {
+  max-width: 700px; /* Define uma largura máxima */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+  text-align: justify; /* Justifica o texto para melhor legibilidade */
+  /* padding: 50px 0px 150px 0px; Adiciona um espaçamento interno */
+  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+}
